@@ -1,0 +1,6 @@
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\Debug\Interop.SAPbobsCOM.dll
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\Debug\Contract.vbproj.ResolveComReference.cache
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\Debug\Contract.vbprojResolveAssemblyReference.cache
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\Debug\Contract.frmReports.resources
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\Debug\Contract.Resources.resources
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\Debug\Contract.vbproj.GenerateResource.Cache

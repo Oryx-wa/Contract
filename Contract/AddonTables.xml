@@ -1,0 +1,1142 @@
+﻿<Tables>
+  <usertable>
+    <TableName>OPCH</TableName>
+    <TableDescription>OPCH</TableDescription>
+    <Tabletype>0</Tabletype>
+    <Secondary>-1</Secondary>
+    <Created>Y</Created>
+    <UseSequence>0</UseSequence>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OPCH</TableName>
+      <Name>ContractCode</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Contract Code</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>1</FieldID>
+      <TableName>OPCH</TableName>
+      <Name>MUGBF</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>MUG B/F</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>Q</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>2</FieldID>
+      <TableName>OPCH</TableName>
+      <Name>MUGUtil</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>MUG Utilized</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>Q</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>3</FieldID>
+      <TableName>OPCH</TableName>
+      <Name>MUGCF</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>MUG C/F</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>Q</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>4</FieldID>
+      <TableName>OPCH</TableName>
+      <Name>MUGMTH</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>MUG for the Month</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>Q</EditType>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRACT</TableName>
+    <TableDescription>Precurement Contract</TableDescription>
+    <Tabletype>3</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>Y</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>Y</ManageSeries>
+      <Code>CONTRACT</Code>
+      <Name>Procurement Contract</Name>
+      <ObjectType>3</ObjectType>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+      <UserObjectsChild>
+        <Code>CONTRACT</Code>
+        <TableName>OWA_PQCONTRAMEND</TableName>
+        <LogName />
+        <SonName>OWA_PQCONTRAMEND</SonName>
+      </UserObjectsChild>
+      <UserObjectsChild>
+        <Code>CONTRACT</Code>
+        <TableName>OWA_PQCONTRINSUR</TableName>
+        <LogName />
+        <SonName>OWA_PQCONTRINSUR</SonName>
+      </UserObjectsChild>
+      <UserObjectsChild>
+        <Code>CONTRACT</Code>
+        <TableName>OWA_PQCONTRATTACH</TableName>
+        <LogName />
+        <SonName>OWA_PQCONTRATTACH</SonName>
+      </UserObjectsChild>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ProjectCode</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Project Code</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>1</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ContractorCode</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Contractor Code</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>2</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>Description</Name>
+      <Type>0</Type>
+      <Size>100</Size>
+      <Description>Contract Description</Description>
+      <EditSize>100</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>3</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>EffectiveDate</Name>
+      <Type>3</Type>
+      <Size>8</Size>
+      <Description>Effective Date</Description>
+      <DefaultValue />
+      <EditSize>8</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+    </TableFields>
+    <TableFields>
+      <FieldID>4</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ExpirationDate</Name>
+      <Type>3</Type>
+      <Size>8</Size>
+      <Description>Expiration Date</Description>
+      <DefaultValue />
+      <EditSize>8</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+    </TableFields>
+    <TableFields>
+      <FieldID>5</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>DeliveryDate</Name>
+      <Type>3</Type>
+      <Size>8</Size>
+      <Description>Delivery Date</Description>
+      <DefaultValue />
+      <EditSize>8</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+    </TableFields>
+    <TableFields>
+      <FieldID>6</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>AwardMethod</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Award Method</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>7</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>Employee</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Employee Responsible</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>8</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ContractType</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Contract Type</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>9</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>Executed</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Executed?</Description>
+      <DefaultValue>N</DefaultValue>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRACT</TableName>
+        <FieldID>9</FieldID>
+        <IndexID>0</IndexID>
+        <Value>N</Value>
+        <Description>N</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRACT</TableName>
+        <FieldID>9</FieldID>
+        <IndexID>1</IndexID>
+        <Value>Y</Value>
+        <Description>Y</Description>
+      </ValidValues>
+    </TableFields>
+    <TableFields>
+      <FieldID>10</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>LOIInit</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Initiated By LOI</Description>
+      <DefaultValue>N</DefaultValue>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRACT</TableName>
+        <FieldID>10</FieldID>
+        <IndexID>0</IndexID>
+        <Value>N</Value>
+        <Description>N</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRACT</TableName>
+        <FieldID>10</FieldID>
+        <IndexID>1</IndexID>
+        <Value>Y</Value>
+        <Description>Y</Description>
+      </ValidValues>
+    </TableFields>
+    <TableFields>
+      <FieldID>11</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ContractValue</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Contract Value</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>12</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>Currency</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Currency</Description>
+      <DefaultValue>$</DefaultValue>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>13</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ExchangeRate</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Exchange Rate</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>R</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>15</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>Status</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Contract Status</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>16</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>Comments</Name>
+      <Type>1</Type>
+      <Size>8</Size>
+      <Description>Comments</Description>
+      <DefaultValue />
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+    </TableFields>
+    <TableFields>
+      <FieldID>17</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ContractorName</Name>
+      <Type>0</Type>
+      <Size>100</Size>
+      <Description>Contractor Name</Description>
+      <EditSize>100</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>18</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>SponsorGrp</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Sponsor Group</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>19</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ContractCode</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Contract Code</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>21</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotAmendVal</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Amendment Value</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>22</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>BusinessUnit</Name>
+      <Type>0</Type>
+      <Size>30</Size>
+      <Description>Business Unit</Description>
+      <EditSize>30</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>23</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotInvAmt</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Invoice Amount</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>24</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotOrdAmt</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Order Amount</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>25</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotPmtAmt</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Payment Amount</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>26</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ValueFC</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Value (USD)</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>27</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotValueFC</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Value (USD)</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>28</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>ValueLC</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Value LC</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>29</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotContrVal</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Contract Value</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>30</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>EmployeeName</Name>
+      <Type>0</Type>
+      <Size>100</Size>
+      <Description>Employee Name</Description>
+      <EditSize>100</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>31</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotInvAmtFC</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Invoice Amount FC</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>32</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotOrdAmtFC</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Order Amount FC</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>33</FieldID>
+      <TableName>OWA_PQCONTRACT</TableName>
+      <Name>TotPmtAmtFC</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Total Payment Amount FC</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRAMD</TableName>
+    <TableDescription>Procurement Contract Amendment</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTRACT_AMD</Code>
+      <Name>Contract Amendment Type</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTRAMD</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRAMD</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRAMD</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRAMD</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRAMEND</TableName>
+    <TableDescription>Procurement Contract Amendment</TableDescription>
+    <Tabletype>4</Tabletype>
+    <Secondary>2</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRAMEND</TableName>
+      <Name>AmendmentType</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Amendment Type</Description>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>1</FieldID>
+      <TableName>OWA_PQCONTRAMEND</TableName>
+      <Name>AmendmentNo</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Amendment Number</Description>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>2</FieldID>
+      <TableName>OWA_PQCONTRAMEND</TableName>
+      <Name>AmendmentValue</Name>
+      <Type>4</Type>
+      <Size>16</Size>
+      <Description>Amendment Value</Description>
+      <EditSize>16</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>S</EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>3</FieldID>
+      <TableName>OWA_PQCONTRAMEND</TableName>
+      <Name>Comments</Name>
+      <Type>1</Type>
+      <Size>8</Size>
+      <Description>Comments</Description>
+      <DefaultValue />
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRATTACH</TableName>
+    <TableDescription>Procurement Contract Attachmen</TableDescription>
+    <Tabletype>4</Tabletype>
+    <Secondary>2</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRATTACH</TableName>
+      <Name>Attached</Name>
+      <Type>1</Type>
+      <Size>8</Size>
+      <Description>Attached</Description>
+      <DefaultValue />
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType>B</EditType>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRBU</TableName>
+    <TableDescription>Procurement Contract Bus Unit</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTRACT_BU</Code>
+      <Name>Contract Business Unit</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTRBU</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRBU</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRBU</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRBU</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRINSTYPE</TableName>
+    <TableDescription>Procurement Contract Insu Type</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTRACT_INSTYPE</Code>
+      <Name>Contract Insurance Type</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTRINSTYPE</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRINSTYPE</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRINSTYPE</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRINSTYPE</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRINSUR</TableName>
+    <TableDescription>Procurement Contract Insurance</TableDescription>
+    <Tabletype>4</Tabletype>
+    <Secondary>2</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRINSUR</TableName>
+      <Name>InsrType</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Insurance Type 1</Description>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>1</FieldID>
+      <TableName>OWA_PQCONTRINSUR</TableName>
+      <Name>ExpiryDate</Name>
+      <Type>3</Type>
+      <Size>8</Size>
+      <Description>Expiry Date</Description>
+      <DefaultValue />
+      <EditSize>8</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+    </TableFields>
+    <TableFields>
+      <FieldID>2</FieldID>
+      <TableName>OWA_PQCONTRINSUR</TableName>
+      <Name>Status</Name>
+      <Type>0</Type>
+      <Size>50</Size>
+      <Description>Status</Description>
+      <EditSize>50</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>3</FieldID>
+      <TableName>OWA_PQCONTRINSUR</TableName>
+      <Name>InsrType2</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Insurance Type 2</Description>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>4</FieldID>
+      <TableName>OWA_PQCONTRINSUR</TableName>
+      <Name>InsrType3</Name>
+      <Type>0</Type>
+      <Size>10</Size>
+      <Description>Insurance Type 3</Description>
+      <EditSize>10</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+    <TableFields>
+      <FieldID>5</FieldID>
+      <TableName>OWA_PQCONTRINSUR</TableName>
+      <Name>Insurer</Name>
+      <Type>0</Type>
+      <Size>100</Size>
+      <Description>Insurer</Description>
+      <EditSize>100</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTROPTION</TableName>
+    <TableDescription>Procurement Contract Option</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTROPTION</Code>
+      <Name>Contract Option</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTROPTION</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTROPTION</TableName>
+      <Name>Type</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Type</Description>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>A</Value>
+        <Description>Contract Amendment Type</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>I</Value>
+        <Description>Contract Insurance Type</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>2</IndexID>
+        <Value>D</Value>
+        <Description>Contract Division</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>3</IndexID>
+        <Value>T</Value>
+        <Description>Contract Type</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>4</IndexID>
+        <Value>S</Value>
+        <Description>Contract Status</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>5</IndexID>
+        <Value>P</Value>
+        <Description>Contract Payment Type</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>6</IndexID>
+        <Value>M</Value>
+        <Description>Contract Award Method</Description>
+      </ValidValues>
+    </TableFields>
+    <TableFields>
+      <FieldID>1</FieldID>
+      <TableName>OWA_PQCONTROPTION</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>1</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Y</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTROPTION</TableName>
+        <FieldID>1</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>N</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRPMTTYPE</TableName>
+    <TableDescription>Procurement Contract Pmt Type</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTRACT_PMT</Code>
+      <Name>Contract Payment Type</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTRPMTTYPE</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRPMTTYPE</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRPMTTYPE</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRPMTTYPE</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRSPONSOR</TableName>
+    <TableDescription>Procurement Contract Sponsor</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTRACT_SPONSOR</Code>
+      <Name>Contract Sponsor Group</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTRSPONSOR</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRSPONSOR</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRSPONSOR</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRSPONSOR</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRSTATUS</TableName>
+    <TableDescription>Procurement Contract Status</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <UserObjects>
+      <CanCancel>Y</CanCancel>
+      <CanClose>N</CanClose>
+      <CanCreateDefaultForm>N</CanCreateDefaultForm>
+      <CanDelete>Y</CanDelete>
+      <CanFind>Y</CanFind>
+      <CanLog>N</CanLog>
+      <LogTableName />
+      <CanYearTransfer>N</CanYearTransfer>
+      <ManageSeries>N</ManageSeries>
+      <Code>CONTRACT_STATUS</Code>
+      <Name>Contract Status</Name>
+      <ObjectType>1</ObjectType>
+      <TableName>OWA_PQCONTRSTATUS</TableName>
+      <Created>N</Created>
+      <UseSequence>0</UseSequence>
+    </UserObjects>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRSTATUS</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRSTATUS</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRSTATUS</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+  <usertable>
+    <TableName>OWA_PQCONTRTYPE</TableName>
+    <TableDescription>Procurement Contract Types</TableDescription>
+    <Tabletype>1</Tabletype>
+    <Secondary>1</Secondary>
+    <Created>N</Created>
+    <UseSequence>0</UseSequence>
+    <TableFields>
+      <FieldID>0</FieldID>
+      <TableName>OWA_PQCONTRTYPE</TableName>
+      <Name>Active</Name>
+      <Type>0</Type>
+      <Size>1</Size>
+      <Description>Active</Description>
+      <DefaultValue>Y</DefaultValue>
+      <EditSize>1</EditSize>
+      <Mandatory>N</Mandatory>
+      <Created>N</Created>
+      <EditType> </EditType>
+      <ValidValues>
+        <TableName>OWA_PQCONTRTYPE</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>0</IndexID>
+        <Value>Y</Value>
+        <Description>Yes</Description>
+      </ValidValues>
+      <ValidValues>
+        <TableName>OWA_PQCONTRTYPE</TableName>
+        <FieldID>0</FieldID>
+        <IndexID>1</IndexID>
+        <Value>N</Value>
+        <Description>No</Description>
+      </ValidValues>
+    </TableFields>
+  </usertable>
+</Tables>

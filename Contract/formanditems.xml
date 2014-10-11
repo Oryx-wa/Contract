@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Oryx>
+  <Permission PermCategory="OWA_PAYOTH001" FormUID="OWA_PAY010" ItemUID="btnPrepare"/>
+  <Permission PermCategory="OWA_PAYOTH002" FormUID="OWA_PAY010" ItemUID="btnVerify"/>
+
+</Oryx>

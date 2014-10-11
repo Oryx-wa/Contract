@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Contract", "Contract.vbproj", "{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SboAddOnBaseNew", "..\..\SBOAddonBaseNew\SboAddOnBaseNew.vbproj", "{A168FDF6-A804-42B9-97B6-64F127AEFB2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Debug|x64.ActiveCfg = Debug|x86
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Debug|x64.Build.0 = Debug|x86
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Debug|x86.ActiveCfg = Debug|x86
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Debug|x86.Build.0 = Debug|x86
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Release|x64.ActiveCfg = Release|x64
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Release|x64.Build.0 = Release|x64
+		{C0190BE2-6EA4-4A86-9613-2C464E1C0EE3}.Release|x86.ActiveCfg = Release|Any CPU
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Debug|x64.ActiveCfg = Debug|x86
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Debug|x86.ActiveCfg = Debug|x86
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Debug|x86.Build.0 = Debug|x86
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Release|x64.ActiveCfg = Release|x86
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Release|x86.ActiveCfg = Release|x86
+		{A168FDF6-A804-42B9-97B6-64F127AEFB2D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

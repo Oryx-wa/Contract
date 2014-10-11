@@ -1,0 +1,33 @@
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\Contract.exe.config
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.vbproj.ResolveComReference.cache
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.exe
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.xml
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.pdb
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\Contract.exe
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\Contract.pdb
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\Contract.xml
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\SAPbouiCOM.dll
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\SboAddOnBase.dll
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\SboAddOnBase.pdb
+C:\PROGRAMS\ORYX\CONTRACT\Contract\bin\x86\Debug\SboAddOnBase.xml
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.vbprojResolveAssemblyReference.cache
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.frmReports.resources
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.Resources.resources
+C:\PROGRAMS\ORYX\CONTRACT\Contract\obj\x86\Debug\Contract.vbproj.GenerateResource.Cache
+C:\Programs\contract\Contract\bin\x86\Debug\Contract.exe.config
+C:\Programs\contract\Contract\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Programs\contract\Contract\obj\x86\Debug\Contract.vbproj.ResolveComReference.cache
+C:\Programs\contract\Contract\obj\x86\Debug\Contract.exe
+C:\Programs\contract\Contract\obj\x86\Debug\Contract.xml
+C:\Programs\contract\Contract\obj\x86\Debug\Contract.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\bin\x86\Debug\Contract.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.vbproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.frmReports.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\Contract\obj\x86\Debug\Contract.vbproj.GenerateResource.Cache

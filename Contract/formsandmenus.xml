@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Oryx>
+	<Forms Name="Contract.Contract" MenuUID="Contract.Contract" PermID="OWA_PAY001" PermCategory="OWA_PAYDEFINITIONS"/>
+	<Forms Name="Contract.ContractAmend" MenuUID="Contract.ContractAmend" PermID="OWA_PAY001" PermCategory="OWA_PAYDEFINITIONS"/>
+	<Forms Name="Contract.ContractInsurType" MenuUID="Contract.ContractInsurType" PermID="OWA_PAY001" PermCategory="OWA_PAYDEFINITIONS"/>
+	<Forms Name="Contract.ContractStatus" MenuUID="Contract.ContractStatus" PermID="OWA_PAY001" PermCategory="OWA_PAYDEFINITIONS"/>
+	<Forms Name="Contract.BusinessUnit" MenuUID="Contract.BusinessUnit" PermID="OWA_PAY001" PermCategory="OWA_PAYDEFINITIONS"/>
+	<Forms Name="Contract.SponsorGroup" MenuUID="Contract.SponsorGroup" PermID="OWA_PAY001" PermCategory="OWA_PAYDEFINITIONS"/>
+</Oryx>

@@ -1,0 +1,138 @@
+<Permissions>
+    <Perm>
+        <PermissionID>OWA_PAYROLL</PermissionID>
+        <PermName>Oryx Payroll</PermName>
+        <PermType>1</PermType>
+        <PermLevel>1</PermLevel>
+        <FatherID></FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYTERMINATE</PermissionID>
+        <PermName>Employee Exit</PermName>
+        <PermType>0</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTHERS</PermissionID>
+        <PermName>Other Authorisation</PermName>
+        <PermType>1</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYPROCESS</PermissionID>
+        <PermName>Payroll Process</PermName>
+        <PermType>0</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYREPORTS</PermissionID>
+        <PermName>Payroll Reports</PermName>
+        <PermType>0</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+  <Perm>
+    <PermissionID>OWA_PAYUTILS</PermissionID>
+    <PermName>Payroll Utilities</PermName>
+    <PermType>0</PermType>
+    <PermLevel>2</PermLevel>
+    <FatherID>OWA_PAYROLL</FatherID>
+    <IsItem>N</IsItem>
+    <Created>N</Created>
+  </Perm>
+  
+    <Perm>
+        <PermissionID>OWA_PAYCASUAL</PermissionID>
+        <PermName>Casual Payroll</PermName>
+        <PermType>0</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYDATA</PermissionID>
+        <PermName>Employee Payroll Data</PermName>
+        <PermType>0</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYDEFINITIONS</PermissionID>
+        <PermName>Payroll Definitions</PermName>
+        <PermType>0</PermType>
+        <PermLevel>2</PermLevel>
+        <FatherID>OWA_PAYROLL</FatherID>
+        <IsItem>N</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTH001</PermissionID>
+        <PermName>Process Payroll</PermName>
+        <PermType>1</PermType>
+        <PermLevel>3</PermLevel>
+        <FatherID>OWA_PAYOTHERS</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTH002</PermissionID>
+        <PermName>Post Payroll GL</PermName>
+        <PermType>1</PermType>
+        <PermLevel>3</PermLevel>
+        <FatherID>OWA_PAYOTHERS</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTH003</PermissionID>
+        <PermName>Approve Employee Salary</PermName>
+        <PermType>1</PermType>
+        <PermLevel>3</PermLevel>
+        <FatherID>OWA_PAYOTHERS</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTH004</PermissionID>
+        <PermName>Grant Loan</PermName>
+        <PermType>1</PermType>
+        <PermLevel>3</PermLevel>
+        <FatherID>OWA_PAYOTHERS</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTH005</PermissionID>
+        <PermName>Access Confidential Employee</PermName>
+        <PermType>1</PermType>
+        <PermLevel>3</PermLevel>
+        <FatherID>OWA_PAYOTHERS</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+    <Perm>
+        <PermissionID>OWA_PAYOTH006</PermissionID>
+        <PermName>Modify Salary Information</PermName>
+        <PermType>1</PermType>
+        <PermLevel>3</PermLevel>
+        <FatherID>OWA_PAYOTHERS</FatherID>
+        <IsItem>Y</IsItem>
+        <Created>N</Created>
+    </Perm>
+</Permissions>

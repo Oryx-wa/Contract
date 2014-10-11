@@ -1,0 +1,32 @@
+<Application>
+	<Menus>
+		<action type="remove">
+			<Menu UniqueID="CONTRACT"/>
+		</action>
+	</Menus>
+
+	<Menus>
+		<action type="add">
+			<Menu Checked="0" Enabled="1" FatherUID="2304" String="Procurement Contract" Type="2" UniqueID="CONTRACT" Image="" position="16">
+				<Menus>
+					<action type="add">
+						<Menu Checked="0"  Enabled="1" FatherUID="CONTRACT" String="Setup" Type="2" UniqueID="CONTR_PAYSETUP" Image="">
+							<Menus>
+								<action type="add">
+									<Menu Checked="0" Enabled="1" FatherUID="CONTR_PAYSETUP" String="Contract Amendment Type" Type="1" UniqueID="Contract.ContractAmend" Image=""/>
+									<Menu Checked="0" Enabled="1" FatherUID="CONTR_PAYSETUP" String="Contract Insurance Type" Type="1" UniqueID="Contract.ContractInsurType" Image=""/>
+									<Menu Checked="0" Enabled="1" FatherUID="CONTR_PAYSETUP" String="Contract Status" Type="1" UniqueID="Contract.ContractStatus" Image=""/>
+									<Menu Checked="0" Enabled="1" FatherUID="CONTR_PAYSETUP" String="Business Unit" Type="1" UniqueID="Contract.BusinessUnit" Image=""/>
+									<Menu Checked="0" Enabled="1" FatherUID="CONTR_PAYSETUP" String="Sponsor Group" Type="1" UniqueID="Contract.SponsorGroup" Image=""/>
+
+								</action>
+							</Menus>
+						</Menu>
+						<Menu Checked="0" Enabled="1" FatherUID="CONTRACT" String="Procurement Contract" Type="1" UniqueID="Contract.Contract" Image=""/>
+					</action>
+				</Menus>
+			</Menu>
+		</action>
+	</Menus>
+	
+</Application>

@@ -1,0 +1,22 @@
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\bin\ContractAddon.exe
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\bin\ContractAddon.xml
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.BaseControl.resources
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.BaseForm.resources
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\ContractAddon.vbproj.GenerateResource.Cache
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\ContractAddon.exe
+C:\PROGRAMS\ORYX\CONTRACT\ContractAddon\ContractAddon\obj\Release\ContractAddon.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\ContractAddon.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\ContractAddon.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\bin\ContractAddon.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\bin\ContractAddon.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.BaseControl.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.BaseForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\contract\ContractAddon\ContractAddon\obj\Release\ContractAddon.vbproj.GenerateResource.Cache
